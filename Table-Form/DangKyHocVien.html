@@ -19,13 +19,13 @@
         <form action="DangKyHocVien.html" method="get">
             <h1>Đăng Ký Học Viên</h1>
             <tr>
-                <th><span style="color: blue">Họ Và Tên</span> </th>
-                <th><input type="text" name="yourname" size="45"/> </th>
+                <th><label for="yourname"><span style="color: blue">Họ Và Tên</span></label></th>
+                <th><input id="yourname" type="text" name="yourname" size="45"/> </th>
             </tr>
             <tr>
-                <td><span style="color: blue">Ngày Sinh</span> </td>
+                <td><label for="date"><span style="color: blue">Ngày Sinh</span></label></td>
                 <td>
-                    <input type="text" name="date" size="25">
+                    <input id="date" type="date" name="date" size="25">
                 </td>
             </tr>
             <tr>
@@ -36,9 +36,9 @@
                 </td>
             </tr>
             <tr>
-                <td><span style="color: blue">Địa Chỉ</span> </td>
+                <td><label for="address"> <span style="color: blue">Địa Chỉ</span></label></td>
                 <td>
-                   <textarea cols="20" rows="5"> </textarea>
+                   <textarea cols="20" rows="5" id="address"></textarea>
                 </td>
             </tr>
             <tr>
@@ -54,15 +54,15 @@
                 </td>
             </tr>
             <tr>
-                <td><span style="color: blue">Email</span> </td>
+                <td><label for="email"> <span style="color: blue">Email</span></label></td>
                 <td>
-                    <input type="text" name="email" size="45"/>
+                    <input id="email" type="email" name="email" size="45"/>
                 </td>
             </tr>
             <tr>
-                <td><span style="color: blue">Điện thoại</span> </td>
+                <td><label for="phonenumber"><span style="color: blue">Điện thoại</span> </td>
                 <td>
-                    <input type="text" name="phonenumber" size="45"/>
+                    <input id="phonenumber" type="text" name="phonenumber" size="45"/>
                 </td>
             </tr>
             <tr>
